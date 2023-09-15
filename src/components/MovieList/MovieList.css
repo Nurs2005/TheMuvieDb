@@ -1,0 +1,20 @@
+.load{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LoadBtn{
+    width: 20%;
+    border-radius: 10px;
+    border:none;
+    margin-bottom: 25px;
+}
+.LoadBtn:hover{
+    transition: 500ms;
+    background-color: rgb(145, 153, 153);
+}
+.card:hover{
+    transition: 500ms;
+    transform:scale(1.05);
+}

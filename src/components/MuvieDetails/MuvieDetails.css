@@ -1,0 +1,194 @@
+.movie-details-container{
+    width: 100%;
+}
+.breadcrumb{
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 5px;
+}
+.hr{
+margin-left: 5px;
+margin-right: 5px;
+}
+.posterBlock{
+    background-size: 100%;
+}
+.poster{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.movie-info{
+    color:#ffff;
+    border-radius: 30px;
+    max-width: 1280px;
+    min-height: 520px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.rating-directors{
+    display: flex;
+}
+.poster-image{
+    width: 50%;
+}
+.movie-poster{
+    object-fit: cover;
+    max-width: 720px;
+    height: 520px;
+    border-radius: 30px;
+    width: 100%;
+}
+.movie-poster:hover{
+    filter: brightness(70%); 
+    transition: 500ms;
+    transform: scale(0.99);
+}
+.infoFolm{
+    width: 100%;
+    padding: 50px;
+    overflow: hidden;
+}
+.director{
+    padding-left: 90px;
+}
+.rait p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    background-color: #ffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.rait {
+    margin-left: 15px;
+}
+.budget{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(41, 41, 41);
+}
+.budgetIn{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.budgetBlock{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ffff;
+    border-radius: 25px;
+    width: 25%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 25%;
+    height: auto;
+}
+.budgetBlock p{
+    padding-top: 10px;
+}
+.actorsList{
+    padding-top: 50px;
+    width: 65%;
+}
+@media (max-width: 792px) {
+    .poster{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .poster p{
+        font-size: 16px;
+    }
+    .poster h1{
+        font-size: calc(1.375rem + 1.5vw);
+    }
+    .movie-info{
+        color:#ffff;
+        border-radius: 30px;
+        max-width: 1280px;
+        min-height: 520px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .rating-directors{
+        display: flex;
+    }
+    .poster-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .movie-poster{
+        object-fit: cover;
+        max-width: 720px;
+        height: 520px;
+        border-radius: 30px;
+        width: 100%;
+    }
+    .infoFolm{
+        width: 100%;
+    }
+    .director{
+        padding-left: 5px;
+    }
+    .rait p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        text-align: center;
+        color: black;
+        background-color: #ffff;
+        border-radius: 50%;
+    }
+    .rait {
+        margin-left: 15px;
+    }
+    .budget{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(41, 41, 41);
+    }
+    .budgetIn{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .budgetBlock{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #ffff;
+        border-radius: 25px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        height: auto;
+    }
+    .budgetBlock p{
+        padding-top: 10px;
+    }
+  }

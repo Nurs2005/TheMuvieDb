@@ -1,0 +1,29 @@
+
+.mivie-app{
+    overflow: auto;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+.MegaTitlse{
+    color: #fff;
+    max-width: 700px;
+    min-height: 100px;
+}
+.space{
+    height: 280px;
+}
+.Mega{
+    max-height: 500px;
+}
+.mega{
+    padding: 20px;
+    display: flex;
+    margin: 0px auto;
+    max-width: 1280px;
+}
+
+
